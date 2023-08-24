@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(148deg,#4fbee3 20%, #f38390 ,#ee7a40);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+h1{
+    font-size: 6rem;
+    color:rgb(219, 233, 246);
+    text-shadow: 6px 0 rgb(5, 41, 159);
+    
+}
+footer{
+    color: rgb(23, 17, 104);
+    font-size: 20px
+}
+
+.drum{
+    border: 10px solid rgb(55, 55, 75);
+    outline: none;
+    font-size: 5rem;
+    line-height: 2;
+    font-weight: 900;
+    color: rgb(231, 68, 68);
+    text-shadow: 3px 0 white;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    background-color: rgb(243, 233, 221);
+    cursor: pointer;
+}
+.h{
+    background-image: url("./assets/images/tom4.png");
+}
+.e{
+    background-image: url("./assets/images/tom2.png");
+}
+.l{
+    background-image: url("./assets/images/snare.png");
+}
+.o{
+    background-image: url("./assets/images/tom1.png");
+}
+.g{
+    background-image: url("./assets/images/tom3.png");
+}
+.y{
+    background-image: url("./assets/images/crash.png");
+}
+.s{
+    background-image: url("./assets/images/kick.png");
+}
