@@ -57,7 +57,3 @@ function keyClick(key){
    }
 }
 
-//animation
-function aniMation(){
-  
-}
